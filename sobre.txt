@@ -1,1 +1,134 @@
-Informações sobre o projeto
+Informações sobre o projeto e execução passo a passo
+
+Passo 1: Configuração Inicial
+
+    Verificar a instalação do Git
+
+git --version
+
+Por quê?
+Este comando verifica se o Git está instalado e mostra sua versão. Ele garante que você possa usar o Git no terminal.
+
+Configurar o nome de usuário e e-mail globais
+
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@exemplo.com"
+
+Por quê?
+Configurar seu nome e e-mail garante que seus commits sejam associados à sua identidade no GitHub ou outro sistema.
+
+Criar a pasta do projeto
+
+mkdir -p D:/Arquivos/AvaliacaoGC
+cd D:/Arquivos/AvaliacaoGC
+
+Por quê?
+mkdir cria a pasta para armazenar seu repositório e cd muda para o diretório, permitindo iniciar o repositório Git.
+
+Inicializar o repositório Git
+
+    git init
+
+    Por quê?
+    Este comando cria um repositório Git vazio, transformando o diretório atual em um repositório rastreável pelo Git.
+
+Passo 2: Criação de Arquivos
+
+    Criar o arquivo index.txt com texto inicial
+
+echo "Minha primeira avaliação de Gerência de Configuração de Software" > index.txt
+
+Por quê?
+Cria o arquivo index.txt com o texto inicial diretamente do terminal.
+
+Adicionar o arquivo à área de staging
+
+git add index.txt
+
+Por quê?
+O comando git add move o arquivo index.txt para a área de staging, onde ele é preparado para ser incluído no próximo commit.
+
+Fazer o primeiro commit
+
+    git commit -m "Adiciona o arquivo index com mensagem inicial"
+
+    Por quê?
+    git commit salva o estado do projeto no histórico do repositório com a mensagem informativa.
+
+Passo 3: Modificando Arquivos
+
+    Alterar o arquivo index.txt
+    Abra o arquivo em um editor de texto ou use:
+
+echo "Avaliação prática de Gerência de Configuração" >> index.txt
+
+Por quê?
+Esta alteração adiciona novo conteúdo ao arquivo.
+
+Adicionar mudanças à área de staging
+
+git add index.txt
+
+Por quê?
+Prepara as mudanças feitas no arquivo para serem incluídas no próximo commit.
+
+Fazer o segundo commit
+
+    git commit -m "Atualiza o arquivo index com texto adicional"
+
+    Por quê?
+    Salva as mudanças no histórico do repositório com um comentário que explica a alteração.
+
+Passo 4: Adicionando Novos Arquivos
+
+    Criar o arquivo sobre.txt
+
+echo "Informações sobre o blog" > sobre.txt
+
+Por quê?
+Cria o arquivo sobre.txt com conteúdo inicial.
+
+Adicionar o arquivo à área de staging
+
+git add sobre.txt
+
+Por quê?
+Prepara o arquivo para ser incluído no próximo commit.
+
+Fazer o terceiro commit
+
+    git commit -m "Adiciona o arquivo sobre com informações iniciais"
+
+    Por quê?
+    Salva o novo arquivo no repositório com uma mensagem descritiva.
+
+Passo 5: Verifique o Histórico
+
+    Verificar o histórico de commits
+
+    git log --oneline
+
+    Por quê?
+    Exibe o histórico de commits em formato simplificado, mostrando apenas os IDs e mensagens dos commits.
+
+Passo 6: Mudanças Adicionais
+
+    Modificar os arquivos index.txt e sobre.txt
+    Adicione alterações nos arquivos, como:
+
+echo "Mudança adicional no arquivo index" >> index.txt
+echo "Mudança adicional no arquivo sobre" >> sobre.txt
+
+Adicionar as mudanças ao staging
+
+git add index.txt sobre.txt
+
+Por quê?
+Prepara os dois arquivos alterados para o próximo commit.
+
+Fazer o commit
+
+git commit -m "Atualiza os arquivos index e sobre com novos conteúdos"
+
+Por quê?
+Salva as mudanças com uma mensagem explicativa.
