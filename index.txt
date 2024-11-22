@@ -4,7 +4,7 @@ Esta é uma atividade prática simples, com o passo a passo para praticar os com
 Instruções: 
 1.	Leia atentamente cada tópico da atividade, e realize os comandos necessários para atender as condições existentes em cada tópico. 
 •	Em cada passo, descreva os comandos a serem utilizados para cada passo e explique o porquê da utilização do comando.
-•	Adicione um print do terminal do GIT com o comando utilizado e a resposta obtida a cada interação com o git. 
+•	Adicione uma captura de tela no terminal do GIT com o comando utilizado e a resposta obtida a cada interação com o git. 
 a.	Em caso de erros, busque resolver o problema e descreva como o erro foi resolvido.
 •	Salve este documento em PDF e submeta no Moodle até as 23h do dia 22 de novembro de 2024.
 
@@ -28,8 +28,7 @@ Passo 2: Criação de arquivos
 
 
 Passo 3: Modificando arquivos
-•	Atualize o “index” dentro do seu repositório local adicionando um texto qualquer
-o	<identificar a alteração>
+•	Atualize o “index” dentro do seu repositório local adicionando um texto qualquer e identifique a alteração
 •	Adicione as mudanças à área Stage do git
 •	Faça o segundo Commit.
 o	Faça um comentário útil ao segundo commit
