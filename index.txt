@@ -1,1 +1,71 @@
-Minha primeira avaliação de Gerência de Configuração de Software
+Avaliação de Gerência de Configuração de Software
+
+Esta é uma atividade prática simples, com o passo a passo para praticar os comandos básicos do Git vistos em sala de aula. Esta atividade envolverá a criação de um projeto simples, realização de commits, modificação de arquivos e visualização do histórico de commits. Certifique-se de que o Git esteja instalado no seu computador para a realização da mesma. 
+Instruções: 
+1.	Leia atentamente cada tópico da atividade, e realize os comandos necessários para atender as condições existentes em cada tópico. 
+•	Em cada passo, descreva os comandos a serem utilizados para cada passo e explique o porquê da utilização do comando.
+•	Adicione um print do terminal do GIT com o comando utilizado e a resposta obtida a cada interação com o git. 
+a.	Em caso de erros, busque resolver o problema e descreva como o erro foi resolvido.
+•	Salve este documento em PDF e submeta no Moodle até as 23h do dia 22 de novembro de 2024.
+
+
+Atividade: Criação do projeto de um blog simples.
+
+Passo 1:  Configuração inicial
+•	Se você não possuir o git instalado em seu computador, faça a instalação conforme o manual de instalação disponível no moodle.
+o	Crie uma conta no github para vincular as configurações da conta com o Git
+o	Configure o nome de usuário e e-mail se for necessário (os mesmos da sua conta no github)
+•	Crie uma pasta local para o seu projeto chamada “AvaliacaoGC”.
+•	Abra o terminal do GIT na pasta do projeto e inicialize um repositório no Git.
+<postar o print>
+
+Passo 2: Criação de arquivos
+•	Crie um arquivo .txt chamado “index” dentro do seu repositório local
+•	Adicione a mensagem “Minha primeira avaliação de Gerência de configuração de Software”
+•	Adicione esse arquivo à área Stage do git
+o	<postar o print>
+•	Faça o primeiro Commit.
+•	Faça um comentário útil junto ao commit.
+o	<postar o print>
+
+Passo 3: Modificando arquivos
+•	Atualize o “index” dentro do seu repositório local adicionando um texto qualquer
+o	<identificar a alteração>
+•	Adicione as mudanças à área Stage do git
+o	<postar o print>
+•	Faça o segundo Commit.
+o	Faça um comentário útil ao segundo commit
+o	<postar o print>
+
+Passo 4: Adicionando novos arquivos
+•	Crie um novo arquivo “sobre.txt” no seu repositório local
+o	<postar o print>
+•	Adicione o novo arquivo à área Stage do git
+o	<postar o print>
+•	Faça o terceiro Commit.
+o	<postar o print>
+
+Passo 5: Verifique o histórico 
+•	Verifique o histórico dos commits
+o	<postar o print>
+
+Passo 6: Mudanças adicionais 
+•	Faça novas mudanças nos arquivos “index” e “sobre”
+o	<postar o print>
+•	Repita o processo de adicionar ao Stage e fazer commits dessas alterações.
+o	<postar o print>
+
+Passo 7: Verificar Mudanças  
+•	Faça novas mudanças nos arquivos “index” e “sobre”
+o	<postar o print>
+•	Verifique as mudanças que não foram adicionadas ao Stage
+o	<postar o print>
+•	Verifique as diferenças entre o arquivo no último commit e o que está no Stage
+o	<postar o print>
+
+
+Passo 8: Á sua escolha
+•	Realize 4 comandos a sua escolha, e explique: 
+o	Qual o nome do comando
+o	Qual seu objetivo 
+o	mostre os resultados obtidos.
